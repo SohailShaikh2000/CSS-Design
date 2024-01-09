@@ -1,0 +1,55 @@
+.products-container {
+  display: flex;
+  height: 150px;
+}
+
+.products {
+  display: flex;
+}
+
+.product-img {
+  height: 100%;
+  width: 25%;
+}
+
+.product-img > img {
+  height: 100%;
+}
+
+.product-info {
+  height: 100%;
+  width: 100%;
+}
+
+.product-info > h2 {
+  padding-left: 14px;
+  color: hsl(233, 8%, 79%);
+}
+
+.product-info > h3 {
+  padding-left: 14px;
+  font-size: 18px;
+}
+
+.product-info > p {
+  padding-left: 14px;
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.pc-products {
+  display: flex;
+}
+
+.laptop-products {
+  display: flex;
+}
+
+.gaming-products {
+  display: flex;
+}
+
+.product-info > .pc {
+  width: 100%;
+}

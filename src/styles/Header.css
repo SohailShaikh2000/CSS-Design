@@ -1,0 +1,29 @@
+.header-container {
+    height: 8%;
+    width: 100%;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    padding:15px 6px;
+    height: 8%;
+}
+
+.header-list > img {
+    cursor: pointer;
+}
+
+.header-list > ul {
+    display: flex;
+    gap: 42px;
+    list-style-type: none;
+    cursor: pointer;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    font-weight: 700; 
+}
+
+.header-list > ul > li:hover {
+    color: hsl(5, 85%, 63%);
+}
